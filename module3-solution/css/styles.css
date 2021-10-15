@@ -1,0 +1,61 @@
+body {
+	background-color: #2b2d2f; 
+} 
+h1 {
+	color: #FC0254;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.title {
+	text-align: center;
+}
+.navbar {
+	background-color: black;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+	min-height: 70px;
+}
+ .navbar-brand h2 {	
+	color: #FC0253;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	text-align: center;
+	background-color: dimgray;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: lightgray;
+	color: #fc0254;
+}
+#collapsable-nav{
+	border: none;
+}
+#central{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#container-inner {
+	background-color: gray;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.container h1 {
+	background-color: none;
+	padding-top: 10px;
+}
+
+/* For Small devices */
+@media (max-width: 767px) {
+ #container-inner{
+ 	margin-left: 25px;
+ 	margin-right: 25px;
+ }
+}
