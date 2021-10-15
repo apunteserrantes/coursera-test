@@ -6,9 +6,6 @@ h1 {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-.title {
-	text-align: center;
-}
 .navbar {
 	background-color: black;
 	border: none;
@@ -23,7 +20,6 @@ h1 {
 }
 .navbar-default .navbar-nav > li > a {
 	color: black;
-	text-align: center;
 	background-color: dimgray;
 }
 .navbar-default .navbar-nav > li > a:hover {
